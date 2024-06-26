@@ -1,0 +1,121 @@
+{% extends "index.html" %}
+
+{% block contenthead %}
+<link rel="stylesheet" href="{{ url_for('static', filename='blood2.css') }}">
+{% endblock contenthead %}
+
+{% block content %}
+
+
+<div class="container firstpage">
+    <header>
+        
+        <div class="header-left">
+            <svg width="20" height="25" viewBox="0 0 20 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M19 10C19 14.9706 10 23.5 10 23.5C10 23.5 1 14.9706 1 10C1 5.02943 5.02943 1 10 1C14.9706 1 19 5.02943 19 10Z" stroke="#F7274C" stroke-width="1.5"/>
+                <path d="M10 11.125C10.6213 11.125 11.125 10.6213 11.125 10C11.125 9.37868 10.6213 8.875 10 8.875C9.37866 8.875 8.875 9.37868 8.875 10C8.875 10.6213 9.37866 11.125 10 11.125Z" stroke="#F7274C" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+        </div>
+        <div class="header-right">
+            <svg width="27" height="22" viewBox="0 0 27 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M1 1H26" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M10 11L26 11" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M1 20.4445H26" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+        </div>
+    </header>
+
+
+<div class="title-div">
+    <h1>GIVE THE GIFT OF LIFE</h1>
+    <h2>Donate <span class="highlight">Blood</span></h2>
+</div>
+<div class="stats">
+    <div class="stat-box">
+        <p id="num1">176</p>
+        <span id="sp1">New Blood Registered</span>
+    </div>
+    <div class="stat-box1">
+        <p id="num2" >16K</p>
+        <span id="sp2">Total Donate</span>
+    </div>
+</div>
+<div class="title-div">
+    <p class="info-text">Each donation can save up to <span class="highlight">3 lives!</span></p>
+</div>
+
+<div class="graph" >
+
+    <!-- Placeholder for graph -->
+
+    <div class="monthly-donation">
+        <p class="info-text donation">Donation This Month: <span class="highlight">127</span></p>
+    </div>
+
+    <div class="actions">
+        <div class="action-box">
+            <div class="circleOne circle1">
+                <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 30 30" width="25px" height="90px"><path d="M 13 3 C 7.4889971 3 3 7.4889971 3 13 C 3 18.511003 7.4889971 23 13 23 C 15.396508 23 17.597385 22.148986 19.322266 20.736328 L 25.292969 26.707031 A 1.0001 1.0001 0 1 0 26.707031 25.292969 L 20.736328 19.322266 C 22.148986 17.597385 23 15.396508 23 13 C 23 7.4889971 18.511003 3 13 3 z M 13 5 C 17.430123 5 21 8.5698774 21 13 C 21 17.430123 17.430123 21 13 21 C 8.5698774 21 5 17.430123 5 13 C 5 8.5698774 8.5698774 5 13 5 z" stroke="#FF5775" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </div>
+            <p id="sp3">Find A Donor</p>
+            <div class="blue-button">
+                <span>29.3K</span>
+            </div>
+            
+        </div>
+        <div class="action-box">
+            <div class="circleOne circle2">
+
+                <svg width="25px" height="90px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g id="Communication / Bell_Notification">
+                    <path id="Vector" d="M15 17V18C15 19.6569 13.6569 21 12 21C10.3431 21 9 19.6569 9 18V17.0001M15 17L9 17.0001M15 17H19C19.5523 17 20 16.5523 20 16V15.4141C20 15.1489 19.8945 14.8946 19.707 14.707L19.1963 14.1963C19.0706 14.0706 19 13.9 19 13.7222V10C19 9.82357 18.9936 9.64855 18.9805 9.4761M9 17.0001L5 17.0001C4.44772 17.0001 4 16.5521 4 15.9998V15.4141C4 15.1489 4.10544 14.8949 4.29297 14.7073L4.80371 14.1958C4.92939 14.0701 5 13.9002 5 13.7224V9.99998C5 6.13401 8.134 3 12 3C12.7116 3 13.3984 3.10618 14.0454 3.30357M18.9805 9.4761C20.1868 8.7873 21 7.48861 21 6C21 3.79086 19.2091 2 17 2C15.8298 2 14.7769 2.50253 14.0454 3.30357M18.9805 9.4761C18.3966 9.80949 17.7205 10 17 10C14.7909 10 13 8.20914 13 6C13 4.9611 13.3961 4.0147 14.0454 3.30357M18.9805 9.4761C18.9805 9.47609 18.9805 9.4761 18.9805 9.4761ZM14.0454 3.30357C14.0459 3.30371 14.0464 3.30385 14.0468 3.304" stroke="#E4B304" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </g>
+                    </svg>
+
+            </div>
+            <p id="sp3">Blood Request</p>
+            <div class="blue-button">
+                <span>28.3K</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="actions">
+        <div class="action-box" style="margin-top: 20px;">
+            <div class="circleOne circle3" >
+
+                <svg height="25px" width="90px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+                    viewBox="0 0 512 512" xml:space="preserve">
+                    <path style="fill:#D80027;" d="M450.207,317.793C450.207,425.05,363.256,512,256,512c-107.257,0-194.207-86.95-194.207-194.207
+                        C61.793,176.552,256,0,256,0S450.207,176.552,450.207,317.793z"/>
+                    <path style="fill:#A2001D;" d="M450.207,317.793C450.207,425.05,363.256,512,256,512c0-211.862,0-512,0-512
+                        S450.207,176.552,450.207,317.793z"/>
+                    <polygon style="fill:#FFFFFF;" points="336.92,285.425 288.368,285.425 288.368,236.873 223.632,236.873 223.632,285.425 
+                        175.08,285.425 175.08,350.161 223.632,350.161 223.632,398.712 288.368,398.712 288.368,350.161 336.92,350.161 "/>
+                </svg>
+
+            </div>
+            <p id="sp3">Blood Bank</p>
+            <div class="blue-button">
+                <span>29.3K</span>
+            </div>
+        </div>
+        <div class="action-box" style="margin-top: 20px;">
+            <div class="circleOne circle4">
+
+                <svg width="35px" height="90px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M11.0175 19C10.6601 19 10.3552 18.7347 10.297 18.373C10.2434 18.0804 10.038 17.8413 9.76171 17.75C9.53658 17.6707 9.31645 17.5772 9.10261 17.47C8.84815 17.3365 8.54289 17.3565 8.30701 17.522C8.02156 17.7325 7.62943 17.6999 7.38076 17.445L6.41356 16.453C6.15326 16.186 6.11944 15.7651 6.33361 15.458C6.49878 15.2105 6.52257 14.8914 6.39601 14.621C6.31262 14.4332 6.23906 14.2409 6.17566 14.045C6.08485 13.7363 5.8342 13.5051 5.52533 13.445C5.15287 13.384 4.8779 13.0559 4.87501 12.669V11.428C4.87303 10.9821 5.18705 10.6007 5.61601 10.528C5.94143 10.4645 6.21316 10.2359 6.33751 9.921C6.37456 9.83233 6.41356 9.74433 6.45451 9.657C6.61989 9.33044 6.59705 8.93711 6.39503 8.633C6.1424 8.27288 6.18119 7.77809 6.48668 7.464L7.19746 6.735C7.54802 6.37532 8.1009 6.32877 8.50396 6.625L8.52638 6.641C8.82735 6.84876 9.21033 6.88639 9.54428 6.741C9.90155 6.60911 10.1649 6.29424 10.2375 5.912L10.2473 5.878C10.3275 5.37197 10.7536 5.00021 11.2535 5H12.1115C12.6248 4.99976 13.0629 5.38057 13.1469 5.9L13.1625 5.97C13.2314 6.33617 13.4811 6.63922 13.8216 6.77C14.1498 6.91447 14.5272 6.87674 14.822 6.67L14.8707 6.634C15.2842 6.32834 15.8528 6.37535 16.2133 6.745L16.8675 7.417C17.1954 7.75516 17.2366 8.28693 16.965 8.674C16.7522 8.99752 16.7251 9.41325 16.8938 9.763L16.9358 9.863C17.0724 10.2045 17.3681 10.452 17.7216 10.521C18.1837 10.5983 18.5235 11.0069 18.525 11.487V12.6C18.5249 13.0234 18.2263 13.3846 17.8191 13.454C17.4842 13.5199 17.2114 13.7686 17.1083 14.102C17.0628 14.2353 17.0121 14.3687 16.9562 14.502C16.8261 14.795 16.855 15.1364 17.0323 15.402C17.2662 15.7358 17.2299 16.1943 16.9465 16.485L16.0388 17.417C15.7792 17.6832 15.3698 17.7175 15.0716 17.498C14.8226 17.3235 14.5001 17.3043 14.2331 17.448C14.0428 17.5447 13.8475 17.6305 13.6481 17.705C13.3692 17.8037 13.1636 18.0485 13.1099 18.346C13.053 18.7203 12.7401 18.9972 12.3708 19H11.0175Z" stroke="#5C5C5C" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M13.9747 12C13.9747 13.2885 12.9563 14.333 11.7 14.333C10.4437 14.333 9.42533 13.2885 9.42533 12C9.42533 10.7115 10.4437 9.66699 11.7 9.66699C12.9563 9.66699 13.9747 10.7115 13.9747 12Z" stroke="#5C5C5C" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+
+            </div>
+            <p id="sp3">Others</p>
+            <div class="blue-button">
+                <span>9.3K</span>
+            </div>
+        </div>
+    </div>
+    
+</div>
+</div>
+{% endblock content %}

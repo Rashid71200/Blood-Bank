@@ -1,0 +1,363 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+.container {
+    flex: 1;
+    min-width: 100vw;
+    margin: 0px;
+    background-color: #f8f9fa;
+    overflow: hidden;
+    position: relative;
+
+    
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.firstpage {
+    background-image: url("./svg/blood-drop-svgrepo-com.svg");
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    background-color: #f8f9fa;
+}
+
+header img {
+    width: 25px;
+    height: 25px;
+}
+
+main {
+    padding: 0px;
+    text-align: center;
+}
+
+.title-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center; /* Ensures text is centered within the elements */
+    width: 100%; /* Optional: Ensures the div takes full width of its container */
+    height: 100%; /* Optional: Ensures the div takes full height of its container */
+}
+
+
+h1 {
+    width: 257px;
+    height: 28px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Inria Sans;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 23.98px;
+    text-align: center;
+    color: #606060;
+}
+
+h2 {
+    width: 338px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Inter;
+    font-size: 45px;
+    font-weight: 400;
+    line-height: 54.46px;
+    background: linear-gradient(90deg, #FF5473 0%, #F7274C 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.highlight {
+    font-family: Inter;
+    font-weight: 700;
+    text-align: left;
+}
+
+
+.stats {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.stat-box {
+    padding: 10px;
+    border-radius: 10px;
+    width: 128px;
+    height: 111px;
+    top: 216px;
+    left: 65px;
+    gap: 0px;
+    border-radius: 25px 25px 25px 25px;
+    opacity: 0px;
+    background: linear-gradient(102.61deg, #FF5473 33%, #F7274C 93.58%);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center; /* Ensures text is centered within the elements */
+
+
+}
+
+.stat-box1 {
+    padding: 10px;
+    border-radius: 10px;
+    width: 128px;
+    height: 111px;
+    top: 216px;
+    left: 65px;
+    gap: 0px;
+    border-radius: 25px 25px 25px 25px;
+    opacity: 0px;
+    background: #E0E0E0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center; /* Ensures text is centered within the elements */
+
+
+}
+
+#num1 {
+    width: 94px;
+    height: 50px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Inder;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 45px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+#num2 {
+    width: 94px;
+    height: 50px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Inder;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 45px;
+    text-align: center;
+    color: #585555;
+}
+
+#sp1 {
+    width: 87px;
+    height: 41px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: "Saira", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+#sp2 {
+    width: 87px;
+    height: 41px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: "Saira", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: #6A6767;
+}
+
+#sp3 {
+    width: 87px;
+    height: 41px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Inter;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: #6A6767;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.stat-box p {
+    font-size: 1.5em;
+    color: #e63946;
+}
+
+.info-text {
+    height: 16px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0.01em;
+    text-align: center;
+    font-family: Inter;
+    color: #6A6767;
+}
+
+.donation {
+    color: #ffffff;
+}
+
+.graph {
+    border-radius: 10px;
+    margin: 20px 0;
+    padding-top: 20px;
+    width: 100vw;
+    position: absolute;
+    bottom: 0px;
+}
+
+.navOne {
+    width: 50px;
+    height: 49px;
+    gap: 0px;
+    opacity: 0px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: 0 ;
+}
+
+.navOne.active {
+    background: linear-gradient(144.39deg, #FF9AAC -35.55%, #F7274C 79.13%);
+  }
+
+.monthly-donation {
+    font-size: 1em;
+    margin-bottom: 20px;
+}
+
+.actions {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+
+.action-box {
+    width: 103px;
+    height: 131px;
+    gap: 0px;
+    border-radius: 12px;
+    opacity: 0px;
+    margin-bottom: 0px;
+    background: #FFFFFF;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center; /* Ensures text is centered within the elements */
+
+}
+
+.action-box img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.blue-button {
+    width: 55px;
+    height: 19px;
+    gap: 0px;
+    border-radius: 13px;
+    opacity: 0px;
+    background: #4EAAFE;
+    font-family: Inter;
+    color: #FFFFFF;
+
+}
+
+.circleOne {
+    width: 60px;
+    height: 59px;
+    gap: 0px;
+    opacity: 0px;
+    border-radius: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.circle1 {
+    background-color: #FFDEE4; /* background-color: #; */
+}
+
+.circle2 {
+    background: #FED74E7A;
+
+}
+
+.circle3 {
+    background-color: #6CF3DB47;
+}
+
+.circle4 {
+    
+    background-color: #ECEAE9;
+
+
+}
+
+footer {
+    padding: 10px;
+    background-color: #f8f9fa;
+    min-width: 100vw;
+}
+
+.footer-nav {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
+
+.footer-nav img {
+    width: 30px;
+    height: 30px;
+}

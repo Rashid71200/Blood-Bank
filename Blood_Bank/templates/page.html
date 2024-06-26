@@ -1,0 +1,29 @@
+{% extends "index.html" %}
+
+{% block content %}
+<div class="container">
+    <header>
+        
+        <div class="header-left">
+            <svg width="20" height="25" viewBox="0 0 20 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M19 10C19 14.9706 10 23.5 10 23.5C10 23.5 1 14.9706 1 10C1 5.02943 5.02943 1 10 1C14.9706 1 19 5.02943 19 10Z" stroke="#F7274C" stroke-width="1.5"/>
+                <path d="M10 11.125C10.6213 11.125 11.125 10.6213 11.125 10C11.125 9.37868 10.6213 8.875 10 8.875C9.37866 8.875 8.875 9.37868 8.875 10C8.875 10.6213 9.37866 11.125 10 11.125Z" stroke="#F7274C" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+        </div>
+        <div class="header-right">
+            <svg width="27" height="22" viewBox="0 0 27 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M1 1H26" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M10 11L26 11" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M1 20.4445H26" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+        </div>
+    </header>
+
+<p>Blood Group</p>
+    
+
+
+
+</div>
+<link rel="stylesheet" href="{{ url_for('static', filename='blood.css') }}">
+{% endblock content %}

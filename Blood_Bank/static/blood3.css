@@ -1,0 +1,343 @@
+.containar_4 {
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centers content horizontally */
+    text-align: center; /* Ensures text is centered within the elements */
+    background-color: #f8f9fa;
+}
+
+.drower_box_2 {
+    width: 386px;
+height: 51px;
+gap: 0px;
+border-radius: 18px;
+border: solid #C7C7C7 0.5px;
+opacity: 0px;
+
+margin-top: 0px;
+align-items: center; /* Centers content horizontally */
+display: flex;
+justify-content: space-around;
+text-align: center; /* Ensures text is centered within the elements */
+position: relative;
+}
+
+
+
+
+.drower_box_2p {
+  width: 212px;
+  height: 42px;
+  gap: 0px;
+  border-radius: 10px;
+  border: 1px;
+  opacity: 0px;
+  border: solid #F6274C 1px;
+  align-items: center; /* Centers content horizontally */
+  display: flex;
+  justify-content: space-between;
+  text-align: center; /* Ensures text is centered within the elements */
+
+}
+
+
+
+
+
+.drower_box_4 {
+  width: 386px;
+height: 51px;
+gap: 0px;
+border-radius: 18px;
+border: solid #C7C7C7 0.5px;
+opacity: 0px;
+
+margin-top: 0px;
+align-items: center; /* Centers content horizontally */
+display: flex;
+justify-content: right;
+text-align: center; /* Ensures text is centered within the elements */
+position: relative;
+
+}
+
+.button_list {
+
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: #706F6F;
+
+    display: flex;
+    align-items: start;
+    justify-content: left;
+    text-align: center; /* Ensures text is centered within the elements */
+
+}
+
+
+
+#switch-inside-div {
+  width: 100%;
+  display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+
+
+
+
+.switch2 {
+  display: inline-block;
+  margin-inline: auto;
+}
+
+.switch2 input {
+  display: none;
+  margin-top: 50%;
+  margin-bottom: 50%;
+}
+
+.switch2 label {
+  display: flex; /* Use flexbox */
+  align-items: center; /* Center vertically */
+  justify-content: center; /* Center horizontally */
+  width: 386px;
+  height: 51px;
+  padding: 0px;
+  border-radius: 15px;
+  border: 2px solid #F6274C;
+  background: #FF5775;
+  cursor: pointer;
+  transition: 0.3s;
+  text-align: center;
+  position: relative; /* Required for positioning ::after */
+}
+
+.switch2 label::after {
+  content: "Messages";
+  display: flex; /* Use flexbox */
+  align-items: center; /* Center vertically */
+  justify-content: center; /* Center horizontally */
+  width: 193px;
+  height: 47px;
+  border-radius: 12px;
+  background: #ffffff;
+  transition: 0.3s;
+  position: absolute; /* Required for moving */
+  top: 0px; /* Align with label */
+  left: 0px; /* Align with label */
+}
+
+.switch2 input:checked ~ label {
+  border-color:  #F6274C;
+  background: #FF5775;
+}
+
+.switch2 input:checked ~ label::after {
+  transform: translateX(190px); /* Use transform for smoother animation */
+  background: #ffffff;
+  content: "Notification";
+}
+
+.switch2 input:disabled ~ label {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+
+
+.messages_holders1 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centers content horizontally */
+  text-align: center; /* Ensures text is centered within the elements */
+  padding-top: 7px;
+
+}
+
+.the_messages {
+  width: 386px;
+  height: 67px;
+  gap: 0px;
+  border-radius: 10px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  padding-inline: 10px;
+  margin-top: 4px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a shadow effect */
+}
+
+
+.messages_inside {
+  width: 100%;
+  display: flex;
+  font-family: Inter;
+  line-height: 16px;
+  letter-spacing: 0.01em;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start; /* Centers content horizontally */
+  text-align: start; /* Ensures text is centered within the elements */
+  padding-inline: 10px;
+}
+
+#id_titles {
+
+  font-size: 16px;
+  font-weight: 400;
+  color: #070707;
+  margin-bottom: 5px;
+
+}
+
+#id_messages {
+  font-family: Open Sans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0.01em;
+  text-align: center;
+  color: #999999;
+
+}
+
+#id_date {
+  width: 100%;
+  font-family: Open Sans;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0.01em;
+  text-align: right;
+  color: #999999;
+
+}
+
+
+.the_scarch_box {
+  width: 138px;
+  height: 42px;
+  gap: 0px;
+  border-radius: 10px;
+  opacity: 0px;
+  background: linear-gradient(114.88deg, #FF6883 -20.5%, #F7274C 65.84%);
+  display: flex;
+  justify-content: space-around;
+  text-align: center; 
+  align-items: center;
+}
+
+
+.sub_containar_5p {
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  text-align: center; /* Ensures text is centered within the elements */
+
+}
+
+
+.all_post {
+  width: 386px;
+  gap: 0px;
+  border-radius: 10px;
+  flex-direction: column;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  padding-inline: 10px;
+  margin-top: 4px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a shadow effect */
+  padding-bottom: 7px;
+}
+
+.the_post {
+  width: 386px;
+  height: 67px;
+  gap: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  padding-inline: 10px;
+  margin-top: 4px;
+}
+
+
+.post_inside {
+  width: 100%;
+  max-height: 77px;
+  display: flex;
+  font-family: Inter;
+  line-height: 16px;
+  letter-spacing: 0.01em;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start; /* Centers content horizontally */
+  text-align: center; /* Ensures text is centered within the elements */
+  padding-inline: 10px;
+  margin-top: 15px;
+}
+
+.the_post_content {
+  font-family: "Noto Serif Bengali", serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0.01em;
+  text-align: left;
+
+}
+
+.the_React {
+  margin-top: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+
+.the_React_sub {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.followers {
+  width: 47px;
+height: 19px;
+gap: 0px;
+border-radius: 5px;
+opacity: 0px;
+background-color: #F6274C;
+margin-top: 10px;
+
+}
+
+#id_date_follow {
+  font-family: Open Sans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  color: #F6274C;
+  
+
+}
+
+
